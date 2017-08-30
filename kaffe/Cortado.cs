@@ -8,7 +8,11 @@ namespace kaffe
 {
     public class Cortado : Kaffe
     {
-        public override int pris()
+        /// <summary>
+        /// Prisen på Cortado
+        /// </summary>
+        /// <returns></returns>
+        public override int Pris()
         {
             return 25;
         }
